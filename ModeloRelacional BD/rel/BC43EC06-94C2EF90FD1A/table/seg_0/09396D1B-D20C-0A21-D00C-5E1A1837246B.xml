@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09396D1B-D20C-0A21-D00C-5E1A1837246B" name="control">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>2B77F7B1-53BB-E8B2-5AB6-0DE6880162F8</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idUsuario" id="83AB9E75-FEE1-E9B4-45DF-1D62EA51187A">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>75E84CC6-63CF-DAFE-F923-78843394102E</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D383D7C9-ACF3-5A77-8E33-A35BEB909CD9" referredColumn="34BD4151-8BB7-1108-36D7-DDEC9BB36D01"/>
+</associations>
+</Column>
+<Column name="codActividad" id="F1059478-4300-CA13-099D-B054CD02271C">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:55:03 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5E5F8E5-AA0C-89AE-0BEA-18F6A897B871" referredColumn="7E1D8D81-7EC2-E585-63F5-972D945C4065"/>
+</associations>
+</Column>
+<Column name="consecutivo" id="7DA9E065-1BD1-4154-2D86-ECF14A1A4063">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>15FBC92C-A2E6-88F0-564E-98EE639BFEB1</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="4367F004-E5B3-3E2B-589B-7122DB6A2AF8">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>65502865-2260-6627-58FA-6E6F217B7ECF</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="BEDD9B14-6E9F-0A59-83C6-63F7FA05B7D5">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>84B4FE24-6E76-49F3-10CC-C4C0B80E8047</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idUsuario2" id="FBA8A27A-2E7D-B72E-4121-6CEA98F77F28">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:55:03 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5E5F8E5-AA0C-89AE-0BEA-18F6A897B871" referredColumn="92C1D5E1-8B94-9481-031E-0B6019678131"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CCD04B9-E314-7C6D-6D01-20311F04283D" name="control_PK">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>AC7DAFE2-897C-CEC7-E714-246B8589B4C8</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DA9E065-1BD1-4154-2D86-ECF14A1A4063"/>
+<colUsage columnID="83AB9E75-FEE1-E9B4-45DF-1D62EA51187A"/>
+<colUsage columnID="F1059478-4300-CA13-099D-B054CD02271C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94031ED4-9057-BE6B-E3CC-4B3E56D24003" name="control_Usuario_FK">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>1BC4CA0C-6AE2-01D9-8A75-7940991FAC7D</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83AB9E75-FEE1-E9B4-45DF-1D62EA51187A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B5F0185-805C-435F-5A4F-56995A26AAD7" name="control_usuario_Actividad_FK">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>9C879187-CE1D-4674-3000-28D5BAFD35C6</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBA8A27A-2E7D-B72E-4121-6CEA98F77F28"/>
+<colUsage columnID="F1059478-4300-CA13-099D-B054CD02271C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

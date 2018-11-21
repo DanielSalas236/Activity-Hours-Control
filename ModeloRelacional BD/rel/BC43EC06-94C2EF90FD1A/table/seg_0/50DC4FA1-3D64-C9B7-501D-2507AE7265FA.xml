@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50DC4FA1-3D64-C9B7-501D-2507AE7265FA" name="institucion">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>6314F2D1-3C35-88A1-7E0F-141ECFC9E8D3</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idInstitucion" id="9DBD1C5B-102B-193A-E7EA-B9B2AC4CCC9E">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>1FCEE459-D379-9ABC-D70C-C5DAA1407D46</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nit" id="E9A3D0FD-10D6-A9C2-BCAE-455CBA64AAC7">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>F772B157-0CB3-0416-EC77-7A6AD02AF587</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreInst" id="C6567A67-292C-B54D-45AE-B48500692B95">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>F3D3AE40-41A1-EC7F-7B60-A58388F915CC</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="E8D21142-4DF4-DBB4-AF2C-8D51C20AFA84">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>4122AA80-B65A-5FF4-DDEC-DC35E8E76679</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="68D9225B-A133-F793-5AA4-776376FCEC65">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>845D0442-EA0D-FF89-C415-88BEE5C30285</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="04F8FF08-EDBB-51EF-4A3C-27FCFF677D13">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>A15D42D1-922D-667D-9420-83344F2FBCD1</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5126106-C4D9-E4EA-F0E3-FD9D7CDE7695" name="institucion_PK">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>1A1DFFE4-DB32-75E2-13DF-A8C0062A16F7</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DBD1C5B-102B-193A-E7EA-B9B2AC4CCC9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

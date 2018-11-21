@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0333CAAE-7AE3-66B2-A623-804AF6D5B9D4" name="programa">
+<createdBy>Windows 10</createdBy>
+<createdTime>2018-10-03 11:47:19 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPrograma" id="007B696B-2293-35E2-D43A-6223486A00AF">
+<createdBy>Windows 10</createdBy>
+<createdTime>2018-10-03 11:47:59 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombrePro" id="B63844A0-1FE3-52B3-A794-9266810520AB">
+<createdBy>Windows 10</createdBy>
+<createdTime>2018-10-03 11:48:13 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idFacultad" id="6E4F525C-94B0-FB18-4DD6-6C66231B7736">
+<createdBy>Windows 10</createdBy>
+<createdTime>2018-10-03 11:54:01 UTC</createdTime>
+<generatorID>66C094A2-8992-ED77-7E57-C1030B60126C</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<referedAttribute>B803601C-6D15-DE6A-82CB-5B070F9E7E01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA2E1E7A-40A0-DABD-12F8-EC2B4B660FA9" name="programa PK">
+<createdBy>Windows 10</createdBy>
+<createdTime>2018-10-03 11:48:18 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>007B696B-2293-35E2-D43A-6223486A00AF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

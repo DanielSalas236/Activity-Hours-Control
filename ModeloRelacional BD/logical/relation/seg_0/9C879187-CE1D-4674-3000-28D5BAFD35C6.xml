@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="control usuario Actividad FK" directorySegmentName="seg_0" id="9C879187-CE1D-4674-3000-28D5BAFD35C6">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:48:32 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<sourcePk>31567FC7-2C6B-F7F0-A68C-0F344E42D42D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D672091E-90B9-D684-7384-C4BA6D0F8218</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B77F7B1-53BB-E8B2-5AB6-0DE6880162F8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

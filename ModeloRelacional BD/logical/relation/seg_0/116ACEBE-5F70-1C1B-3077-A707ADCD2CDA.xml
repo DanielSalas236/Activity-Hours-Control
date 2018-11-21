@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Usuario programa FK" directorySegmentName="seg_0" id="116ACEBE-5F70-1C1B-3077-A707ADCD2CDA">
+<createdBy>Windows 10</createdBy>
+<createdTime>2018-10-03 15:27:09 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<sourcePk>DA2E1E7A-40A0-DABD-12F8-EC2B4B660FA9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0333CAAE-7AE3-66B2-A623-804AF6D5B9D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7548857E-88B7-CE11-0E5C-83C6CE15FCE3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7548857E-88B7-CE11-0E5C-83C6CE15FCE3" name="Usuario">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-09-27 21:07:59 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idUsuario" id="0EDDEDA7-34C7-96C3-CB7E-D5FEB0E37654">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-09-27 21:09:01 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="FAFA4460-3C94-18E9-19FD-E26BA73E0D11">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-09-27 21:11:19 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="39D85FD0-8F0F-DBFA-DA5A-3190EE1E78D1">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-09-27 21:11:42 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaNacimiento" id="2AB4560B-519B-C159-B307-C872B0D6788C">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-09-27 21:11:43 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="F9789566-531A-6362-50FD-4BCCFEEB261D">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-09-27 21:11:43 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="4A0EAFF9-1220-4F2A-5A66-60E1B3D207FF">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-09-27 21:11:44 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="E6A324E9-DCFB-5A98-D340-3F1C8B62E8BF">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-09-27 21:12:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="461D1885-B635-5E0D-889F-4FC8177614F6">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-09-27 21:12:46 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clave" id="277BB073-2151-2DC8-5DDA-66A2CF48FE91">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-09-27 21:12:48 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idTipo" id="34B8D579-3F7E-CC7F-52DD-E148F4901389">
+<createdBy>Windows 10</createdBy>
+<createdTime>2018-10-03 11:46:25 UTC</createdTime>
+<generatorID>3A2BB50A-0E7B-E2DC-5B85-6F56D45053E2</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<referedAttribute>B4222E77-3198-AA1B-B6E3-20F066059799</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPrograma" id="105DDF97-306F-7877-17F2-2F9C97314560">
+<createdBy>Windows 10</createdBy>
+<createdTime>2018-10-03 15:27:09 UTC</createdTime>
+<generatorID>116ACEBE-5F70-1C1B-3077-A707ADCD2CDA</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<referedAttribute>007B696B-2293-35E2-D43A-6223486A00AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoDocumento" id="CCA84752-AF3F-ED38-2A26-E1C586F534F0">
+<createdBy>PCGAMER</createdBy>
+<createdTime>2018-10-15 18:52:36 UTC</createdTime>
+<generatorID>1E217F2C-F39D-42DF-10AF-DB642FAA0222</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="397C1081-08D5-CD9C-CCE0-5E72ADF33C9F" name="Usuario PK">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-09-27 21:09:37 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0EDDEDA7-34C7-96C3-CB7E-D5FEB0E37654</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

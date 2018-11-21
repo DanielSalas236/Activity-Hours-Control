@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3685AA8D-A27B-9999-339C-175087640ABE" name="usuario_Actividad">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>D672091E-90B9-D684-7384-C4BA6D0F8218</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codActividad" id="7E1D8D81-7EC2-E585-63F5-972D945C4065">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>523A8B0B-E171-E192-9D12-E5F57E329750</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A3FFA5E-CE67-7C76-4A70-8EEDFEE54596" referredColumn="A435351B-AC39-458D-D3AE-AE8B63E327E7"/>
+</associations>
+</Column>
+<Column name="Usuario_idUsuario" id="92C1D5E1-8B94-9481-031E-0B6019678131">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>5029F154-0FC8-FB3F-B032-0BD0A0A7C194</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E62C0F2E-F145-7B45-FA18-3221F8BEFD8F" referredColumn="34BD4151-8BB7-1108-36D7-DDEC9BB36D01"/>
+</associations>
+</Column>
+<Column name="descripcion" id="AAE7286A-B797-36A5-77AB-3EEDB228F197">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>301D822A-4F05-5525-6BB4-0DA6874B25B7</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CE84C16-4E36-B59E-C529-CF14EC8DFC94" name="usuario_Actividad_PK">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>31567FC7-2C6B-F7F0-A68C-0F344E42D42D</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92C1D5E1-8B94-9481-031E-0B6019678131"/>
+<colUsage columnID="7E1D8D81-7EC2-E585-63F5-972D945C4065"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B7DFB70-54F5-81E7-47C9-9E37B76DF918" name="usuario_Actividad_Actividad_FK">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>7C33DA18-A6A8-E339-9A8D-02B711DEE7C0</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E1D8D81-7EC2-E585-63F5-972D945C4065"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08EDD7DA-820E-2B8B-9160-CD8576080F27" name="usuario_Actividad_Usuario_FK">
+<createdBy>Jonathan Rodriguez</createdBy>
+<createdTime>2018-10-05 23:52:32 UTC</createdTime>
+<generatorID>B006D53D-1D22-8F3E-5933-7680BBCA6D93</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92C1D5E1-8B94-9481-031E-0B6019678131"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

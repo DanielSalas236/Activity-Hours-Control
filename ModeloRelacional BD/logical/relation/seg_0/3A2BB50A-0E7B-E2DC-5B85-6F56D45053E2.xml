@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Usuario tipoUsuario FK" directorySegmentName="seg_0" id="3A2BB50A-0E7B-E2DC-5B85-6F56D45053E2">
+<createdBy>Windows 10</createdBy>
+<createdTime>2018-10-03 11:46:25 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<sourcePk>C43ABDDD-22DF-8158-0BED-53D74C4EC568</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7C3E8DA4-1B90-4F1D-DF70-0D4108842817</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7548857E-88B7-CE11-0E5C-83C6CE15FCE3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="programa facultad FK" directorySegmentName="seg_0" id="66C094A2-8992-ED77-7E57-C1030B60126C">
+<createdBy>Windows 10</createdBy>
+<createdTime>2018-10-03 11:54:01 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="BC43EC06-078F-2304-82F7-94C2EF90FD1A" value="true"/>
+</engineerTo>
+<sourcePk>563EE7AF-470A-2AD7-3C42-F99A572760E8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>115FAE11-8E26-A661-DA77-73D7E882773C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0333CAAE-7AE3-66B2-A623-804AF6D5B9D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
